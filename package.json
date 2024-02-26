@@ -2,7 +2,7 @@
   "name": "practice",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "indexjs",
   "engines":{
     "node":"16.19.1",
     "npm":"8.19.3"
