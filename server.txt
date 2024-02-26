@@ -1,0 +1,28 @@
+MongoDB Passwors - KgPJz7mPy766zMJW
+// console.log(global);
+// global.setTimeout(() => {
+//     console.log('in the timeout');
+//     clearInterval(int);
+// }, 3000);
+
+// const int=setInterval(()=>{
+//     console.log('in the interval');
+// },1000);
+
+// console.log(__dirname);
+// console.log(__filename);
+
+const express=require('express')
+const app=express()
+
+//Routes
+app.get('/',(req,res)=>{
+    res.send('Hello Node API')
+})
+app.get('/blog',(req,res)=>{
+    res.send('Welcome ,You are in my blog')
+})
+
+app.listen(3000,()=>{
+    console.log('Node API app is running on port 3000')
+})
